@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d19ef7f2-c6da-4663-95e6-e80ca40dd4ac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/GetTwitterConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/driver.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/resources/reference.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/fetcher/FakeFetcher.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/fetcher/UrlFetcher.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/fetcher/UrlFetcherRobots.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/fetcher/UrlFetcherUtils.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/parser/FireStarTransformerBlocking.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/parser/FireStarTransformerHttp.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/parser/FireStarTransformerRaw.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/parser/FirestarTransformer.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/renderer/AjaxTransformer.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/renderer/HulkClient.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/storage/FakeWriters.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/storage/HDFSWriter.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/storage/HTMLPailWriter.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/storage/HTMLWriter.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/storage/JobsWriter.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/storage/ParsedWriters.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/storage/SeederWriter.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/storage/WriterUtils.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/transformer/FakeTransformer.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/transformer/Transformer.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/utils/Settings.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/main/scala/cannonball/agent/utils/Utils.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/mapred-site.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/error-404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/error-503.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/language-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/large-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/meta-refresh-loop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/meta-refresh-with-relative-url.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/meta-refresh.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/page-with-canonical-url.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/simple-page.0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/simple-page.1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/simple-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/user-agent-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/www.lampsplus.com.1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/www.lampsplus.com.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/www.lampsplus.com.image.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/pages/www.lampsplus.com_nofollow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/reference.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/signature/abercrombie/alyssa-sweater-1278710" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/signature/abercrombie/tara-tank-1114579" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/signature/abercrombie/tara-tank-1114579.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/signature/abercrombie/tara-tank-1114579.2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/signature/drugstore/qxp211492" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/signature/drugstore/qxp211492.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/signature/drugstore/qxp211492?catid=183816" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/signature/flipkart/itmdm9d6ypyhxteq" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/signature/flipkart/itmdm9ghxegteq5r" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/signature/flipkart/itmdm9ghxegteq5r?pid=SHODDXF2MFK9AT63" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/signature/flipkart/itmdm9ghxegteq5r?pid=SHODDXF2MFK9AT63&amp;ref=89044e05-c7c8-4024-9154-46527072b6f4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/signature/flipkart/itmdmczfttzzmm5q" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/sitemaps/shoebacca-sitemap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/sitemaps/target-sitemap_index.xml.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/test-reference1.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/resources/test-site-settings0.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/fetcher/DedupSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/fetcher/Spike.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/fetcher/UrlFetcherRobotsSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/fetcher/UrlFetcherSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/fetcher/UrlFetcherUtilsSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/fetcher/WebServer.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/parser/FirestarTransformerSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/storage/CSVWriterSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/storage/HTMLPailWriterSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/storage/HTMLWriterSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/storage/JSONWriterSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/storage/SeederWriterSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/storage/WriterSpecHelper.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-agent/src/test/scala/cannonball/agent/utils/SettingsSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/java/cannonball/algorithms/bloomfilter/BloomCalculations.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/java/cannonball/algorithms/bloomfilter/URLFP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/java/cannonball/algorithms/bloomfilter/URLFPBloomFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/java/cannonball/algorithms/bloomfilter/URLFPV2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/java/cannonball/algorithms/bloomfilter/URLFingerPrint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/java/cannonball/algorithms/fingerprint/FPGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/java/cannonball/algorithms/hashing/MurmurHash.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/java/cannonball/algorithms/hashing/Shingle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/java/cannonball/algorithms/hashing/SimHash.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/java/cannonball/algorithms/util/BitUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/java/cannonball/algorithms/util/OpenBitSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/scala/cannonball/algorithms/FS.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/scala/cannonball/algorithms/SeenFilter.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/scala/cannonball/algorithms/SeenFilterImpl.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/scala/cannonball/algorithms/SeenFilterProxy.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/main/scala/cannonball/algorithms/Signature.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/test/scala/cannonball/algorithms/CannonballBloomFilterSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/test/scala/cannonball/algorithms/EmptySeenFilterSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/test/scala/cannonball/algorithms/HashTableSeenFilterSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/test/scala/cannonball/algorithms/SeenFilterProxySpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-algorithms/src/test/scala/cannonball/algorithms/SignatureSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/common.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/core-site.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/feed-urls.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/hbase-site.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/my-config/Seshas-MacBook-Pro.local.application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/my-config/Vasanths-iMac-3.local.application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/my-config/ashwanth-desktop.application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/my-config/brindavan.local.application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/my-config/csharma-desktop.application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/my-config/csharma-laptop.local.application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/my-config/dementor.application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/my-config/gondor.application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/my-config/manojs-MacBook-Pro.local.application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/my-config/phoenix.application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/my-config/satendra.application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/reference.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/seed-urls.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/resources/site-settings.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/CannonballSystem.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/Cluster.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/Kernel.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/assignments/AgentAssignmentPolicy.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/assignments/SiteAssignmentPolicy.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/frontier/BackQueue.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/frontier/FrontQueue.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/frontier/Router.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/frontier/Shuffler.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/frontier/UrlFrontier.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/frontier/UrlLoader.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/messages/Messages.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/metrics/InfluxDB.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/metrics/Metrics.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/metrics/OTSDB.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/scheduler/FlakySchedulerClient.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/scheduler/InMemorySchedulerClient.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/scheduler/SchedulerClientProxy.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/settings/CannonballSettings.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/supervisor/FetcherActor.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/supervisor/Supervisor.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/supervisor/TransformActor.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/supervisor/WriterActor.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/main/scala/cannonball/cluster/utils/Reflect.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/multi-jvm/resources/application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/multi-jvm/resources/site-settings.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/multi-jvm/scala/cannonball/cluster/EndToEndIntegrationSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/multi-jvm/scala/cannonball/cluster/STMultiNodeSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/resources/seed-urls.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/resources/site-settings.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/resources/sites.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/scala/cannonball/cluster/AkkaSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/scala/cannonball/cluster/ClusterMasterSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/scala/cannonball/cluster/assignments/AgentAssignmentPolicySpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/scala/cannonball/cluster/assignments/SiteAssignmentPolicySpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/scala/cannonball/cluster/frontier/NrOfAgentsBiasedRouterSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/scala/cannonball/cluster/frontier/RouterSimulationSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/scala/cannonball/cluster/frontier/RouterSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/scala/cannonball/cluster/frontier/ShufflerSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/scala/cannonball/cluster/metrics/OTSDBMetricsSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/scala/cannonball/cluster/scheduler/InMemorySchedulerClientSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/scala/cannonball/cluster/scheduler/SchedulerClientProxySpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/scala/cannonball/cluster/scheduler/SeedingSchedulerSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-cluster/src/test/scala/cannonball/cluster/settings/CannonballSettingsSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/main/java/cannonball/crawlerutils/robots/BaseRobotRules.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/main/java/cannonball/crawlerutils/robots/BaseRobotsParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/main/java/cannonball/crawlerutils/robots/SimpleRobotRules.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/main/java/cannonball/crawlerutils/robots/SimpleRobotRulesParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/main/java/cannonball/crawlerutils/sitemap/AbstractSiteMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/main/java/cannonball/crawlerutils/sitemap/SiteMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/main/java/cannonball/crawlerutils/sitemap/SiteMapIndex.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/main/java/cannonball/crawlerutils/sitemap/SiteMapParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/main/java/cannonball/crawlerutils/sitemap/SiteMapURL.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/main/java/cannonball/crawlerutils/sitemap/UnknownFormatException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/java/cannonball/crawlerutils/robots/SimpleRobotRulesParserTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/java/cannonball/crawlerutils/sitemap/SiteMapParserPerformanceTest.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/java/cannonball/crawlerutils/sitemap/SiteMapParserTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/java/cannonball/crawlerutils/test/TestUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/astore.amazon.com-robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/directive-typos-robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/dos-line-endings.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/extended-standard-robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/flipkart-robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/format-errors-robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/jamesallen-robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/malformed-path.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/many-user-agents.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/robots-with-bom.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/robots-with-regex.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/robots-with-special-characters.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/robots-with-utf16be-bom.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/robots-with-utf16le-bom.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/robots-with-utf8-bom.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/sitemap-robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/twitter.com-robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/www.flot.com-robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/robots/zappos-robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/sitemap/detail23.xml.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-crawler-utils/src/test/resources/sitemap/id.SiteMapXML.xml.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/Global.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/actors/DashboardActor.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/actors/DashboardHelper.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/controllers/DashboardMain.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/controllers/JobsAPI.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/controllers/SitesAPI.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/controllers/StatsAPI.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/controllers/WarningAPI.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/helpers/Clock.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/helpers/Constants.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/helpers/Settings.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/helpers/StatsHelper.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/ApiMessages.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/Messages.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/Protocol.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/jobs/JobForms.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/jobs/JobHelper.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/snapshots/Snapshot.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/snapshots/TimeBoundMetrics.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/stats/DContacts.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/stats/DJobStat.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/stats/DJobStats.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/stats/DRttStats.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/stats/DSiteStat.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/stats/DSiteStats.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/stats/FrontierStats.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/stats/RttPercentileMetric.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/models/stats/SupervisorStats.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/views/frontier.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/views/jobsForm.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/views/jobsStatus.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/views/main.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/views/master.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/views/sites.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/views/summary.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/views/supervisor.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/app/views/unknown.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/conf/application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/conf/logger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/conf/routes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/public/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/public/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/public/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/public/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/public/images/favicon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/public/javascripts/dataTables.filterDelay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/public/javascripts/helper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/public/javascripts/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/public/javascripts/master-page.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/public/javascripts/summary-page.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/public/stylesheets/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/public/stylesheets/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/public/stylesheets/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/test/ApplicationSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/test/IntegrationSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/test/models/DSiteStatSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/test/models/ProtocolSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/test/models/ProtocolSpecHelper.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/test/models/snapshots/TimeBoundMetricsSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/test/models/stats/DRttStatsSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-dashboard/test/models/stats/RttPercentileMetricSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/avro/UrlBunchModels.avdl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/java/cannonball/prioritizer/KListingPageType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/java/cannonball/prioritizer/KPageType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/java/cannonball/prioritizer/KScoreFeatures.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/java/cannonball/prioritizer/KUrl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/java/cannonball/prioritizer/KUrlBunchRecord.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/java/cannonball/prioritizer/KUrls.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/java/cannonball/prioritizer/UrlBunchRecords.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/resources/layout/schedule_table.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/resources/layout/seeder_table.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/resources/layout/urls_table.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/cluster/Protocol.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/cluster/PubSubTopics.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/jobs/JobConfig.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/logger/Logger.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/models/Messages.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/models/SiteConfigurationReader.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/models/fetcher/Fetcher.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/models/fetcher/FetcherMessage.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/models/scheduler/Scheduler.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/models/scheduler/SchedulerClient.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/models/storage/Writer.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/scheduler/SeedingScheduler.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/seeder/CustomSeeder.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/utils/JSONUtils.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/utils/TimeUtils.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/main/scala/cannonball/utils/URLUtils.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/test/resources/site-settings.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/test/resources/test-site-settings1.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/test/resources/test-site-settings2.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/test/resources/test-site-settings3.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/test/resources/test-site-settings4.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/test/resources/test-site-settings5.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/test/resources/test-site-settings6.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/test/resources/test-site-settings7.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/test/resources/test-site-settings8.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/test/scala/cannonball/models/MessagesSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/test/scala/cannonball/models/ProtocolSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-models/src/test/scala/cannonball/models/SiteConfigurationReaderSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-scheduler/src/main/scala/cannonball/scheduler/ClientHelper.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-scheduler/src/main/scala/cannonball/scheduler/HBaseSchedulerClient.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-scheduler/src/test/scala/cannonball/scheduler/HBaseSchedulerClientTest.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-scheduler/src/test/scala/cannonball/scheduler/SchedulerTestData.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-scheduler/src/test/scala/cannonball/scheduler/Utils.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/AmazonCanada.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/AmazonIndia.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/test/scala/cannonball/seeder/AmazonCanadaCustomSeederSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/test/scala/cannonball/seeder/AmazonIndiaCustomSeederSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/test/scala/cannonball/seeder/FastenalSeederSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-tests/src/main/scala/cannonball/tests/helper/Utils.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-tests/src/test/resources/turbo/microsoft01/MSFT_ODA_20.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-tests/src/test/resources/turbo/microsoft01/MSFT_ODA_ALL.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-tests/src/test/resources/turbo/scenario01/f92a1b5b-8407-4843-b3dc-d5920e65b85e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-tests/src/test/resources/turbo/scenario02/7a6a857d-57c2-4354-a40d-2555e085ada8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-tests/src/test/resources/turbo/scenario03/d063ed83-1193-449b-90ec-4bba1e9f7b7c.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-tests/src/test/resources/turbo/scenario04/d1c211c7-8ac1-4d30-9aba-7cf33bbfa128.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-tests/src/test/resources/turbo/scenario05/cb2b7ad7-f200-4c87-829b-c3d095cb6772.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-tests/src/test/resources/turbo/scenario06/e0021228-23c7-4901-8d5a-e05332dfd3cd.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-tests/src/test/scala/cannonball/tests/turbo/TurboSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/Global.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/controllers/TurboController.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/helpers/ParamValidator.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/helpers/ResponseHelper.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/helpers/Settings.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/models/ApiResponse.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/models/JsonImplicits.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/models/Messages.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/models/Pager.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/models/ServiceResponse.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/models/Trace.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/services/Crawler.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/services/FirestarParser.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/services/RedisHelper.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/services/TurboHelper.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/views/index.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/app/views/main.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/conf/application-logger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/conf/application.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/conf/routes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/conf/site-settings.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/public/images/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/public/javascripts/jquery-1.9.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/public/stylesheets/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/test/models/BulkCrawlInputSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/test/models/PagerSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/test/models/ProductSpec.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-turbo/test/resources/multiple_variants_input.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-validator/src/main/scala/cannonball/validator/Validation.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-validator/test/resources/site-settings.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-validator/test/resources/test-site-settings-invalid.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cannonball-validator/test/scala/cannonball/validator/ValidationSpec.scala" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/Amazon.scala" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/Amazon.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/test/scala/cannonball/seeder/AmazonCustomSeederSpec.scala" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/test/scala/cannonball/seeder/AmazonCustomSeederSpec.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/AsicsAmerica.scala" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/AsicsAmerica.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/ConfigDrivenListingSeeder.scala" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/ConfigDrivenListingSeeder.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/test/scala/cannonball/seeder/ConfigDrivenListingSeederTest.scala" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/test/scala/cannonball/seeder/ConfigDrivenListingSeederTest.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/Fastenal.scala" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/Fastenal.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/test/scala/cannonball/seeder/ListingSpecUtils.scala" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/test/scala/cannonball/seeder/ListingSpecUtils.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/NewEgg.scala" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/NewEgg.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/Sears.scala" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/Sears.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/SierraTradingPost.scala" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/SierraTradingPost.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/test/scala/cannonball/seeder/SnapdealTest.scala" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/test/scala/cannonball/seeder/SnapdealTest.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/Utils.scala" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/Utils.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/Walmart.scala" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/main/scala/cannonball/seeder/Walmart.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/main/resources/seeder-driver.conf" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/main/resources/seeder-driver.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cannonball-seeders/src/test/resources/site-settings.conf" afterPath="$PROJECT_DIR$/../cannonball-seeders/src/test/resources/site-settings.conf" />
+    </list>
+    <ignored path="techiesfinder.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="techiesfinder" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="2556">
+              <caret line="130" column="29" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="144">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetUserStatus.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GetUserStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.39363816" vertical-offset="90" max-vertical-offset="1044">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="driver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userids.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/userids.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetTwitterConnection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GetTwitterConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="450">
+              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/GetTwitterConnection.java" />
+        <option value="$PROJECT_DIR$/target/userids.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/GetUserStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/driver.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="51" />
+    <option name="y" value="-14" />
+    <option name="width" value="1879" />
+    <option name="height" value="1104" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generated-sources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techiesfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="techiesfinder" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="techiesfinder" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="techiesfinder" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="techiesfinder" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="techiesfinder" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="techiesfinder" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="GetUserStatus" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="nkarthie" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="techiesfinder" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d19ef7f2-c6da-4663-95e6-e80ca40dd4ac" name="Default" comment="" />
+      <created>1435298808551</created>
+      <option name="number" value="Default" />
+      <updated>1435298808551</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="51" y="-14" width="1879" height="1104" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59583336" sideWeight="0.5002758" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.434375" sideWeight="0.4997242" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498621" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.4997242" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="2556">
+          <caret line="130" column="29" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="144">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GetUserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1044">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/userids.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GetTwitterConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="450">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.jar!/twitter4j/auth/OAuth2Support.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.04" vertical-offset="0" max-vertical-offset="378">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/4.0.4/twitter4j-core-4.0.4.jar!/twitter4j/api/FriendsFollowersResources.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.12" vertical-offset="272" max-vertical-offset="1566">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="144">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="2556">
+          <caret line="130" column="29" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GetTwitterConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/userids.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GetUserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39363816" vertical-offset="90" max-vertical-offset="1044">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.10.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>techiesfinder</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:3.8.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
